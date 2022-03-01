@@ -1,0 +1,81 @@
+{
+    "page": [{
+            "pageID": 0, //ไอดีเพจ
+            "pageName": "zero", //ชื่อเพจ
+            "pageText": "<h1 class='text-danger'>คำเตือน</h1>", //ข้อความ (สมารถใช้ภาษาhtmlได้)
+            "pageDuration": 5, //จำนวนวินาทีที่หน้าเว็บแสดง
+            "pageAnswer": null, //choice คำตอบ (ไม่มีใช้ null)
+            "pageBackground": "background-color:blue", //ตกแต่งbackground (ใช้ภาษา css)
+            "pageMusic": { //เพลง (ไม่มีใช้ null(ก็คือเพลงเล่นต่อจากหน้าก่อน))
+                "musicName":"#audio1", //เพลง (ไม่มี null)
+                "musicVol":0.2, //ความดังเสียงเพลง
+                "musicSeekTime":20, //เริ่มวินาทีที่เท่าไหร่
+                "musicStop":0 //หยุดเพลงที่เล่นอยู่ใช้ 1 (ต้องมี musicName อยู่ด้วย)
+            }
+        },
+        {
+            "pageID": 1,
+            "pageName": "one",
+            "pageText": "text2 ${user.name}",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": {
+                "musicName":"#audio2",
+                "musicVol":1,
+                "musicSeekTime":0,
+                "musicStop":0
+            }
+        },
+        {
+            "pageID": 2,
+            "pageName": "two",
+            "pageText": "text3 ${user.name}",
+            "pageDuration": 0,
+            "pageAnswer": [{ //choice คำตอบ (ไม่มีใช้ null)
+                "AnswerText" : "text3 answer1", //ข้อความบนปุ่ม (ตัวอักษาธรรมดา)
+                "PageID" : 3 //เมื่อกดปุ่มแล้วจะไปหน้าไหน
+            },
+            {
+                "AnswerText" : "text3 answer2", //ข้อความบนปุ่ม (ตัวอักษาธรรมดา)
+                "PageID" : 4 //เมื่อกดปุ่มแล้วจะไปหน้าไหน
+            },
+            {
+                "AnswerText" : "text3 answer3", //ข้อความบนปุ่ม (ตัวอักษาธรรมดา)
+                "PageID" : 5 //เมื่อกดปุ่มแล้วจะไปหน้าไหน
+            }],
+            "pageBackground": "background-color:yellow",
+            "pageMusic": null
+        },
+        {
+            "pageID": 3,
+            "pageName": "three",
+            "pageText": "text4 ${user.name}",
+            "pageDuration": 0,
+            "pageAnswer": null, //choice คำตอบ ถ้าเป็น null และ pageDuration เป็น 0 คือหน้านี้จะเป็นช่อง input
+            "pageBackground": null,
+            "pageMusic": {
+                "musicName":"#audio2",
+                "musicStop":1 //หยุดเพลงที่เล่นอยู่ใช้ 1 (ต้องมี musicName อยู่ด้วย)
+            }
+        },
+        {
+            "pageID": 4,
+            "pageName": "four",
+            "pageText": "text5 ${answer.three}",
+            "pageDuration": 0,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null
+        },
+        {
+            "pageID": 5,
+            "pageName": "five",
+            "pageText": "end",
+            "pageDuration": 1,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        
+    </script>
+    <script>
+        test1 = {
+            "name": "Hello ${user.name} ${user.age}"
+        };
+        test3 = {
+            "user": {
+                "name": "DJ",
+                "age": 18
+            }
+        };
+        const store = new Object();
+        const user = new Object();
+        const answer = new Object();
+        const choice = new Object();
+        store.user = user;
+        store.answer = answer;
+        store.choice = choice;
+
+        let keypress = 0;
+
+        //https://stackoverflow.com/questions/53244193/json-recursive-value-substitution-against-another-object
+
+        async function substitution(metadata, data) {
+            const str = JSON.stringify(data);
+            const reg = /\$\{([a-z]|\[\d\]|\.)+\}/gi
+
+            if (!str.match(reg)) {
+                return JSON.parse(str);
+            }
+
+            const res = str.match(reg).reduce((acc, cur) => {
+                //slice to remove ${ and }
+                const val = cur.slice(2, -1).split(".").reduce((acc2, cur2) => {
+                    //check to see if it's like for example: tasks[1]
+                    if (cur2.indexOf("[") > -1) {
+                        const s = cur2.split("[");
+                        //Ex: acc2["tasks"][0]
+                        //slice to remove trailing "]"
+                        return acc2[s[0]][s[1].slice(0, -1)];
+                    }
+                    //Ex acc2["user"]
+                    return acc2[cur2];
+                }, metadata);
+                //val contains the value used to replace the variable string name
+                return acc.replace(cur, val);
+            }, str);
+
+            return JSON.parse(res);
+        }
+
+        //https://gist.github.com/rrfaria/77bd521763e8de4487a50fcb627cf18c
+
+        const go = {
+            timer: null,
+            message: '',
+            time: 0,
+            countdown: (duration = 10) => {
+                clearInterval(go.timer);
+                return new Promise(function (resolve, reject) {
+                    go.timer = setInterval(function () {
+                        go.time--;
+                        console.log(go.message + ':' + go.time);
+                        if (!go.time) {
+                            clearInterval(go.timer);
+                            resolve();
+                        }
+                    }, 1000);
+                });
+            },
+            do: async (msg, time = 10) => {
+                go.time = 1; //ของจริงเปลี่ยนเป็น go.time = time
+                go.message = msg;
+                await go.countdown(go.time);
+                console.log('countdown end');
+            },
+        }
+
+        //https://jsfiddle.net/xr0nmo2h/
+
+        const timeout = async ms => new Promise(res => setTimeout(res, ms));
+
+        let next = false; // this is to be changed on user input
+        let n = 0;
+
+        async function waitUserInput() {
+            while (next === false) await timeout(50); // pause script but avoid browser to freeze ;)
+            next = false; // reset var
+
+        }
+
+        async function sendJSON(url = '') {
+            console.log("uploading");
+            const upload = Object.assign({}, user, answer, choice);
+            console.log(upload);
+            const response = await fetch(url, {
+                method: "POST",
+                mode: "same-origin",
+                credentials: "same-origin",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(upload)
+            });
+            const data = await response.json();
+            return data;
+        }
+
+        async function forPage() {
+
+            const response = await fetch("page.json");
+            const data = await response.json();
+            console.log(data.page);
+
+            while (n < data.page.length) {
+                console.log("At Page " + n);
+                const page = data.page[n];
+                const pageWithVal = await substitution(store, page);
+                console.log(pageWithVal);
+                console.log(store);
+                await writePage(pageWithVal.pageText);
+                if (pageWithVal.pageBackground != null) {
+                    styleBackground(pageWithVal.pageBackground);
+                }
+                if (pageWithVal.pageMusic != null) {
+                    playMusic(pageWithVal.pageMusic);
+                }
+                if (pageWithVal.pageDuration == 0) {
+                    await writeAnswer(pageWithVal);
+                    await waitUserInput();
+                } else {
+                    await go.do("", page.pageDuration);
+                    n=pageWithVal.pageNext;
+                }
+            }
+            console.log("finnish");
+            sendJSON('api/upload.php').then(data => console.log(data));
+
+
+        }
+
+        let audio_status = false;
+
+        function playMusic(pageMusic) {
+            const audio_music = document.querySelector(pageMusic.musicName);
+            if (audio_status) {
+                audio_music_old.pause();
+            }
+            if (pageMusic.musicStop == 0) {
+                console.log("playing " + pageMusic.musicName);
+                audio_music.volume = pageMusic.musicVol;
+                audio_music.currentTime = pageMusic.musicSeekTime;
+                audio_music.play();
+                audio_music_old = audio_music;
+                audio_status = true;
+            }
+
+        }
+
+        function styleBackground(pageBackground) {
+            document.querySelector("body").style.cssText = pageBackground;
+        }
+
+        async function writePage(pageText) {
+            document.getElementById("page").innerHTML = pageText;
+        }
+        async function writeAnswer(page) {
+
+            const htmlpage = document.getElementById("page")
+            const button_group = document.createElement("div");
+            button_group.classList.add("mt-4");
+
+            if (page.pageAnswer != 'input' && page.pageAnswer != 'inputNoWait') {
+                console.log(page.pageAnswer);
+
+                for (const answer of page.pageAnswer) {
+                    const button = document.createElement("button");
+                    button.id = answer.PageID;
+                    button.innerText = answer.AnswerText;
+                    button.classList.add("w-100");
+                    button.classList.add("btn");
+                    button.classList.add("btn-lg");
+                    button.classList.add("btn-light");
+                    button.classList.add("mb-2");
+                    button.addEventListener('click', function (e) {
+                        console.log(e.target.innerText);
+                        choice[page.pageName] = e.target.innerText;
+                        console.log("Goto Page " + parseInt(e.target.id));
+                        n = parseInt(e.target.id);
+                        next = true;
+                    });
+                    button_group.appendChild(button);
+
+                }
+            } else {
+                const input = document.createElement("input");
+                input.classList.add("form-control");
+                if (page.pageAnswer == "inputNoWait") {
+                    keypress = 0
+                    input.addEventListener('keypress', function (e) {
+                        keypress++;
+                        if (keypress == 3) {
+                            answer[page.pageName] = e.target.value;
+                            n = page.pageNext;
+                            next = true;
+                        }
+                    });
+                } else {
+                    keypress = 0
+                    input.addEventListener('keypress', function (e) {
+                        if (e.key === 'Enter') {
+                            if (e.target.value != "") {
+                            answer[page.pageName] = e.target.value;
+                            n = page.pageNext;
+                            next = true;
+                            }
+                        }
+                    });
+                }
+
+                button_group.appendChild(input);
+            }
+
+            htmlpage.appendChild(button_group);
+
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            //forPage();
+            const input = document.querySelector("#play");
+            input.addEventListener('click', function (e) {
+                let name = document.querySelector("#name").value;
+                let age = document.querySelector("#age").value;
+                let gender = document.querySelector("#gender").value;
+                if (name == "" || age == "" || gender == "" || isNaN(parseInt(age))) {
+                    document.querySelector("#invalid").classList.remove("d-none")
+                } else {
+                    user.name = name;
+                    user.age = age;
+                    user.gender = gender;
+                    forPage();
+                }
+
+            })
+        });
+    </script>
+    <style>
+        #page {
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+            margin: auto;
+            z-index: 1;
+            border-radius: 1em;
+            
+        }
+
+        html {
+            height: 100%;
+        }
+        h3,h1{
+            font-family: 'Prompt', sans-serif;
+
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(41, 41, 41);
+            background-image: url('https://i.pinimg.com/564x/c9/27/e9/c927e9d5db333148488a6181c9374a25.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="page">
+        <h1 class=' text-center'>DEATHLINE FOR LIFE</h1>
+        <h4 class=' text-center'>ยินดีต้อนรับแบบจำลองสู่ความตาย</h4>
+            <h4 class=' text-center'>ที่จะชวนคุยมาย้อนคุยกับตัวเองสั้นๆ</h4>
+        <h4 class=' text-center'>กรุณากรอกข้อมูล</h4>
+        <hr>
+        <input id="name" placeholder="ชื่อ" class="form-control mb-2">
+        <input id="age" placeholder="อายุ" class="form-control mb-2">
+        <select id="gender" class="form-select mb-4">
+            <option selected disabled value="">เพศ</option>
+            <option>ชาย</option>
+            <option>หญิง</option>
+            <option>Non-binary</option>
+        </select>
+
+        <button id="play" class="w-100 btn btn-lg btn-light">เล่น</button>
+        <div id="invalid" class="d-none text-danger pt-2">
+            โปรดกรอกข้อมูลให้ครบถ้วน
+        </div>
+    </main>
+    <album>
+        <audio id="audio1" src="mp3/one.mp3"></audio>
+        <audio id="audio2" src="mp3/t_047maekompong.mp3"></audio>
+        <audio id="audio3" src=" mp3/t_047sea.mp3"></audio>
+        <audio id="audio4" src="mp3/rainthada.mp3"></audio>
+        <audio id="audio5" src="mp3/t_047moon.mp3"></audio>
+        <audio id="audio6" src="mp3/last.mp3"></audio>
+       
+
+    </album>
+</body>
+
+</html>

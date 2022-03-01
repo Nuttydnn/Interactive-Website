@@ -1,0 +1,1848 @@
+{
+    
+    "page": [{
+            "pageID": 0,
+            "pageName": "zero",
+            "pageText": "<div class='text-white text-justify'><h3>เว็ปไซต์นี้มีเนื้อหาเกี่ยวกับความตายหากท่านมีอาการในข้อใดต่อไปนี้โปรดหลีกเลี่ยงอย่างเด็ดขาด</h3><hr><li>เป็นผู้ป่วยโรคซึมเศร้า</li><br><li>สงสัยว่าตัวเองเป็นผู้ป่วยโรคซึมเศร้า</li><br><li>มีอาการซึมเศร้า</li><br><li>รู้สึกหดหู่ เศร้า หรือท้อแท้สิ้นหวัง ในช่วง 2 สัปดาห์ที่ผ่านมา รวมถึงวันนี้ </li><br><li>รู้สึกเบื่อ ทำอะไรก็ไม่เพลินเพลิด ในช่วง 2 สัปดาห์ที่ผ่านมา รวมถึงวันนี้</li><br><br><h3>หากมีอาการตรงกับข้อใดเบื้องต้น ขอความกรุณากดออกจากเว็ปไซต์ด้วยนะคะ</h3>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://media2.giphy.com/media/5b3EeuaDo5CLaD9i8f/giphy.gif');background-size:5%;",
+            "pageMusic": {
+                "musicName":"#audio1",
+                "musicVol":1,
+                "musicSeekTime":10,
+                "musicStop":0
+            },
+            "pageNext" : 1
+        },
+        {
+            "pageID": 1,
+            "pageName": "one",
+            "pageText": "<div class='text-white text-center'><h3>วันนี้เป็นวันธรรมดาๆวันหนึ่งในชีวิตคุณ <br><br> คุณใช้ชีวิตอย่างที่เคยใช้มาตลอด </h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/day.gif')",
+            "pageMusic": null,
+            "pageNext" : 2
+            
+        },
+        {
+            "pageID": 2,
+            "pageName": "two",
+            "pageText": "<div class='text-white text-center'><h3>อีกสิบห้านาทีจะเที่ยงคืน  <br><br>แต่คุณยังคงนอนไม่หลับ <br><br> คุณกำลังทำ.....</h3><hr></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "งานและการบ้าน",
+                "PageID" : 148
+            },
+            {
+                "AnswerText" : "เล่นโซเชี่ยลมิเดีย",
+                "PageID" : 149
+            },
+            {
+                "AnswerText" : "ผ่อนคลายจากสิ่งที่เจอมาทั้งวัน",
+                "PageID" : 150
+            },
+            {
+                "AnswerText" : "คิดถึงใครสักคน",
+                "PageID" : 151
+            },
+            {
+                "AnswerText" : "กำลังฟุ้งซ่านจนนอนไม่หลับ",
+                "PageID" : 152
+            }],
+            "pageBackground": "background-image: url('https://media.giphy.com/media/3o7aDcrsww5Ybp18hq/giphy.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 3,
+            "pageName": "three",
+            "pageText": "<div class='text-white text-center'><h3>สิ่งที่คุณตั้งใจว่าจะทำในวันพรุ่งนี้คือ...</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('img/tomorrow.gif')",
+            "pageMusic": null,
+            "pageNext" : 4
+        },
+        {
+            "pageID": 4,
+            "pageName": "four",
+            "pageText": "<div class='text-white text-center'><h3>เปลือกตาของคุณหนักขึ้นเรื่อยๆ</h3></div>  ",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://pbs.twimg.com/profile_images/1250072826650013698/XAWwoGBh_400x400.jpg')",
+            "pageMusic": null,
+            "pageNext" : 146
+        },
+        {
+            "pageID": 5,
+            "pageName": "five",
+            "pageText": "<div class='text-white text-center'><h3>แล้วคุณก็ผล็อยหลับไป...</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackgroun": "background-image:url('https://pbs.twimg.com/profile_images/1250072826650013698/XAWwoGBh_400x400.jpg')",
+            "pageMusic": null,
+            "pageNext" : 6
+        },
+        
+        {
+            "pageID": 6,
+            "pageName": "six",
+            "pageText": "<div class='text-white text-center'><h3>ระหว่างที่คุณหลับ<br><br>คุณฝันถึงเสียงร้องไห้ของใครบางคน<br><br>คุ้นๆว่าจะเป็นคนที่คุณรักมากที่สุด</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://cdn.lowgif.com/small/8ec1422bcf685be5-3-horror-jinyoung-romance-seongwoo-bts-taehyung-lovelyz-sowon.gif')",
+            "pageMusic": null,
+            "pageNext" : 7
+        },
+        {
+            "pageID": 7,
+            "pageName": "seven",
+            "pageText": "<div class='text-white text-center'><h3>คุณคิดว่าเสียงของคนนั้นคือใคร...</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 147
+        },
+        {
+            "pageID": 8,
+            "pageName": "eight",
+            "pageText": "<div class='text-dark text-center'><h3>เช้านี้คุณตื่นขึ้นมา โดยปราศจากเสียงจากนาฬิกาปลุก</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/yoyo.gif')",
+            "pageMusic": {"musicStop":1 },
+            "pageNext" : 9
+        },
+        {
+            "pageID": 9,
+            "pageName": "nine",
+            "pageText": "<div class='text-dark text-center'><h3>ทุกอย่างรอบตัวดูเงียบกว่าที่เคยเป็น</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://static.vecteezy.com/system/resources/thumbnails/000/533/582/small/Background_9_C.jpg')",
+            "pageMusic": null,
+            "pageNext" : 10
+        },
+        {
+            "pageID": 10,
+            "pageName": "ten",
+            "pageText": "<div class='text-dark text-center'><h1>คุณตายแล้ว</h1></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 11
+        },
+        {
+            "pageID": 11,
+            "pageName": "eleven",
+            "pageText": "<div class='text-dark text-center'><h3>ชีวิตคุณไม่เหลือวันพรุ่งนี้อีกแล้ว..</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 12
+        },
+        {
+            "pageID": 12,
+            "pageName": "twelve",
+            "pageText": "<div class='text-dark text-center'><h3>ข้างตัวคุณมียมฑูตยืนรออยู่</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/a7/1c/28/a71c2888a0d0ea47393178bbdcd266fc.jpg')",
+            "pageMusic": null,
+            "pageNext" : 13
+        },
+        {
+            "pageID": 13,
+            "pageName": "thirteen",
+            "pageText": "<div class='text-dark text-center'><h3>ก่อนเริ่มบทสนทนาครั้งสุดท้าย<br>ระหว่างที่คุณกับยมฑูตจะเริ่มขึ้น<br>ความรู้สึกแรกของคุณเมื่อคิดถึงความตายคือ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ตกใจ",
+                "PageID" : 14
+            },
+            {
+                "AnswerText" : "กลัว",
+                "PageID" : 14
+            },
+            {
+                "AnswerText" : "เฉยๆ",
+                "PageID" : 14
+            },
+            {
+                "AnswerText" : "งุนงง",
+                "PageID" : 14
+            }],
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 14
+        },
+        {
+            "pageID": 14,
+            "pageName": "fourteen",
+            "pageText": "<div class='text-dark text-center'><h3>ก่อนที่เราจะเริ่มคุยกันคุณอยากฟังเพลงแบบไหน ในวันสุดท้ายของชีวิต</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":[{
+                "AnswerText" : "เพลงที่ให้ความรู้สึกของทะเล",
+                "PageID" : 15
+            },
+            {
+                "AnswerText" : "เพลงที่ให้ความรู้สึกของภูเขา",
+                "PageID" : 20
+            },
+            {
+                "AnswerText" : "เพลงที่ทำให้คิดถึงฤดูฝน",
+                "PageID" : 24
+            },
+            {
+                "AnswerText" : "เพลงที่ทำให้นึกถึงท้องฟ้า",
+                "PageID" : 28
+            }
+           ],
+            "pageBackground": "background-image:url('img/ear.jpg')",
+            "pageMusic": null
+        },
+        {
+            "pageID": 15,
+            "pageName": "fifiteen",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/be/1a/33/be1a338704efc57093b6dec8e196439b.gif')",
+            "pageMusic": {
+                "musicName":"#audio3",
+                "musicVol":0.5,
+                "musicSeekTime":1,
+                "musicStop":0
+            },
+            "pageNext" : 16
+        },
+        {
+            "pageID": 16,
+            "pageName": "sixteen",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/2a/89/c2/2a89c2b1100753b96eb7d2ec3b3bcf93.gif')",
+            "pageMusic": null,
+            "pageNext" : 17
+        },
+        {
+            "pageID": 17,
+            "pageName": "seventeen",
+            "pageText": "<div class='text-white text-center'><h3>เป็นยังไงบ้างชีวิต ${user.age} ปีที่ผ่านมา <br> สนุกกับมันหรือป่าว</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":[{
+                "AnswerText" : "สนุก",
+                "PageID" : 18
+            },
+            {
+                "AnswerText" : "ไม่สนุก",
+                "PageID" : 18
+            }
+           ],
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/73/56/6b/73566baa9541941de51b7875b73f5fea.gif')",
+            "pageMusic": null,
+            "pageNext" : 18
+        },
+        {
+            "pageID": 18,
+            "pageName": "eightteen",
+            "pageText": "<div class='text-white text-center'><h3>ใครคือคนที่คุณอยากให้อยู่ด้วย<br><br>ในยามที่คุณหมดลมหายใจ<br><br>และอยากให้เขาคนนั้นพูดอะไรกับคุณบ้าง</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":  "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/44/b2/99/44b2990720636e212a1ee48e2dced149.gif')",
+            "pageMusic": null,
+            "pageNext" : 19
+        },
+        {
+            "pageID": 19,
+            "pageName": "nineteen",
+            "pageText": "<div class='text-white text-center'><h3>ก่อนที่ผมจะพาตัวคุณไป และไม่ได้กลับมาอีก <br>คุณยังมีเรื่องไหนในชีวิตที่รู้สึกติดค้าง หรือว่าเสียดายอีกไหม</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ควาามสัมพันธ์กับเพื่อน/ครอบครัว",
+                "PageID" : 32
+            },
+            {
+                "AnswerText" : "ความรัก",
+                "PageID" : 36
+            },
+            {
+                "AnswerText" : "ความฝัน",
+                "PageID" : 58
+            },
+            {
+                "AnswerText" : "อุดมการณ์",
+                "PageID" : 45
+            },
+            {
+                "AnswerText" : "เหตุการณ์ในอดีต",
+                "PageID" : 50
+            },
+            {
+                "AnswerText" : "ยังไม่รู้จักตัวเลย ไม่มีความฝันเลย",
+                "PageID" : 71
+            },
+            {
+                "AnswerText" : "ยังไม่ได้ใช้ชีวิต",
+                "PageID" : 65
+            },
+            {
+                "AnswerText" : "ไม่มีความฝันเลย",
+                "PageID" : 40
+            },
+            {
+                "AnswerText" : "ไม่มี",
+                "PageID" : 141
+            }
+           ],
+            "pageBackground": "background-image:url('img/hand.png')",
+            "pageMusic": null
+        },
+        {
+            "pageID": 20,
+            "pageName": "twenty",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/a6/91/af/a691afb4d343478f9a03c34246813229.gif')",
+            "pageMusic": {
+                "musicName":"#audio2",
+                "musicVol":0.5,
+                "musicSeekTime":1,
+                "musicStop":0
+            },
+            "pageNext" : 21
+        },
+        {
+            "pageID": 21,
+            "pageName": "eightteen",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/31/41/6f/31416f0c6f763c947d08e6406c959cb7.gif')",
+            "pageMusic": null,
+            "pageNext" : 22
+        },
+        {
+            "pageID": 22,
+            "pageName": "twentytwo",
+            "pageText": "<div class='text-white text-center'><h3>เป็นยังไงบ้างชีวิต ${user.age} ปีที่ผ่านมา <br>สนุกกับมันหรือป่าว</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "สนุก",
+                "PageID" : 23
+            },
+            {
+                "AnswerText" : "ไม่สนุก",
+                "PageID" : 23
+            }
+           ],
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/67/0b/c0/670bc0f15088200dc7bd31ff37daa245.gif')",
+            "pageMusic": null,
+            "pageNext" : 23
+        },
+        {
+            "pageID": 23,
+            "pageName": "twentythree",
+            "pageText": "<div class='text-white text-center'><h3>ใครคือคนที่คุณอยากให้อยู่ด้วย<br><br>ในยามที่คุณหมดลมหายใจ<br><br>และอยากให้เขาคนนั้นพูดอะไรกับคุณบ้าง</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/d3/72/65/d372655cedbda764192c8fb239a59497.gif')",
+            "pageMusic": null,
+            "pageNext" : 19
+        },
+        {
+            "pageID": 24,
+            "pageName": "twentyfour",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/4a/b2/cb/4ab2cbefbe285003a99fa4660770657f.gif')",
+            "pageMusic":{
+                "musicName":"#audio4",
+                "musicVol":0.5,
+                "musicSeekTime":1,
+                "musicStop":0
+            },
+            "pageNext" : 25
+        },
+        {
+            "pageID": 25,
+            "pageName": "twentyfive",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/4a/cf/1b/4acf1b010dbf180028792952819df7d9.gif')",
+            "pageMusic": null,
+            "pageNext" : 26
+        },
+        {
+            "pageID": 26,
+            "pageName": "twentysix",
+            "pageText": "<div class='text-white text-center'><h3>เป็นยังไงบ้างชีวิต ${user.age} ปีที่ผ่านมา <br> สนุกกับมันหรือป่าว</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "สนุก",
+                "PageID" : 27
+            },
+            {
+                "AnswerText" : "ไม่สนุก",
+                "PageID" : 27
+            }
+           ],
+            "pageBackground": "background-image:url('https://33.media.tumblr.com/7a73856ab9301e8e4f27137dcb349219/tumblr_n63plyhz5t1qk9powo1_500.gif')",
+            "pageMusic": null,
+            "pageNext" : 27
+        },
+        {
+            "pageID": 27,
+            "pageName": "twentyseven",
+            "pageText": "<div class='text-white text-center'><h3>ใครคือคนที่คุณอยากให้อยู่ด้วย<br><br>ในยามที่คุณหมดลมหายใจ<br><br>และอยากให้เขาคนนั้นพูดอะไรกับคุณบ้าง</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/fa/01/42/fa0142566206003877c56870612b026d.gif')",
+            "pageMusic": null,
+            "pageNext" : 19
+        },
+        {
+            "pageID": 28,
+            "pageName": "twentyeight",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif')",
+            "pageMusic":{
+                "musicName":"#audio5",
+                "musicVol":0.5,
+                "musicSeekTime":1,
+                "musicStop":0
+            },
+            "pageNext" : 29
+        },
+        {
+            "pageID": 29,
+            "pageName": "twentynine",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/6d/ad/9c/6dad9ce3683a554feba2c9abb62060de.gif')",
+            "pageMusic": null,
+            "pageNext" : 30
+        },
+        {
+            "pageID": 30,
+            "pageName": "thirty",
+            "pageText": "<div class='text-dark text-center'><h3>เป็นยังไงบ้างชีวิต ${user.age} ปีที่ผ่านมา <br> สนุกกับมันหรือป่าว</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "สนุก",
+                "PageID" : 31
+            },
+            {
+                "AnswerText" : "ไม่สนุก",
+                "PageID" : 31
+            }
+           ],
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/e7/35/e7/e735e7b058082efac452493c4c5496f9.gif')",
+            "pageMusic": null,
+            "pageNext" : 31
+        },
+        {
+            "pageID": 31,
+            "pageName": "thirtyone",
+            "pageText": "<div class='text-white text-center'><h3>ใครคือคนที่คุณอยากให้อยู่ด้วย<br><br>ในยามที่คุณหมดลมหายใจ<br><br>และอยากให้เขาคนนั้นพูดอะไรกับคุณบ้าง</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/8e/61/5b/8e615b363d573439a949aef0ea54d423.gif')",
+            "pageMusic": null,
+            "pageNext" : 19
+
+        },
+        {
+            "pageID": 32,
+            "pageName": "thirtytwo",
+            "pageText": "<div class='text-white text-center'><h3>ตอนนี้คุณกำลังคิดถึงใครอยู่</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 33
+            
+        },
+        {
+            "pageID": 33,
+            "pageName": "thirtythree",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าย้อนเวลากลับไปได้<br>คุณอยากบอกกับเขาว่า</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 34
+        },
+        {
+            "pageID": 34,
+            "pageName": "thirtyfour",
+            "pageText": "<div class='text-white text-center'><h3>ถ้ายังมีชีวิต แล้วได้มีโอกาสพูดประโยคนี้เองคงจะดีนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 35,
+            "pageName": "thirtyfive",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าเลือกได้มีชีวิตอยู่ต่อ อยากใช้ชีวิตที่เหลือต่อจากนี้เพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "inputNoWait",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 76
+        },
+        {
+            "pageID": 36,
+            "pageName": "thirtysix",
+            "pageText": "<div class='text-white text-center'><h3>หืม...</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 37
+        },
+        {
+            "pageID": 37,
+            "pageName": "thirtyseven",
+            "pageText": "<div class='text-white text-center'><h3>ตอนนี้คุณกำลังคิดถึงใครอยู่</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 38
+        },
+        {
+            "pageID": 38,
+            "pageName": "thirtyeight",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าย้อนเวลากลับไปได้<br>คุณอยากบอกกับเขาว่า</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 39
+        },
+        {
+            "pageID": 39,
+            "pageName": "thirtynine",
+            "pageText": "<div class='text-white text-center'><h3>ถ้ายังมีชีวิต แล้วได้มีโอกาสพูดประโยคนี้เองคงจะดีนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 40,
+            "pageName": "fourty",
+            "pageText": "<div class='text-white text-center'><h3>สิ่งที่คุณคาดหวังจะได้เห็นในอนาคตคืออะไร</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" :41 
+        },
+        {
+            "pageID": 41,
+            "pageName": "fourtyone",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าตอนนี้มีคนคาดหวังจะทำหรือได้เห็นสิ่งนี้<br><br>เหมือนกับคุณในฐานะคนที่จะไม่อยู่ทำแล้ว<br><br> คุณอยากให้กำลังใจเขาว่า</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":"input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 42
+        },
+        {
+            "pageID": 42,
+            "pageName": "fourtytwo",
+            "pageText": "<div class='text-white text-center'><h3>โอ้ นั่นเป็นคำพูดที่ดีนะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 43
+        },
+        {
+            "pageID": 43,
+            "pageName": "fourtythree",
+            "pageText": "<div class='text-white text-center'><h1>'${answer.fourtyone}'</h1></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 44
+        },
+        {
+            "pageID": 44,
+            "pageName": "fourtyfour",
+            "pageText": "<div class='text-white text-center'><h3>ฉันหมายถึงเป็นคำพูดที่ดีสำหรับตัวองคุณเอง</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 45,
+            "pageName": "fourtyfive",
+            "pageText": "<div class='text-white text-center'><h3>สิ่งที่คุณคาดหวังจะได้เห็นในอนาคตคืออะไร</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 46
+        },
+        {
+            "pageID": 46,
+            "pageName": "fourtysix",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าตอนนี้มีคนคาดหวังจะทำหรือได้เห็นสิ่งนี้เหมือนกับคุณ<br>ในฐานะคนที่จะไม่อยู่ทำแล้ว คุณอยากให้กำลังใจเขาว่า</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 47
+        },
+        {
+            "pageID": 47,
+            "pageName": "fourtyseven",
+            "pageText": "<div class='text-white text-center'><h3>โอ้ นั่นเป็นคำพูดที่ดีนะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 48
+        },
+        {
+            "pageID": 48,
+            "pageName": "fourtyeight",
+            "pageText": "<div class='text-white text-center'>${answer.fourtysix}</div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 49
+        },
+        {
+            "pageID": 49,
+            "pageName": "fourtynine",
+            "pageText": "<div class='text-white text-center'><h3>ฉันหมายถึงเป็นคำพูดที่ดีสำหรับตัวคุณเอง</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 50,
+            "pageName": "fifty",
+            "pageText": "<div class='text-white text-center'><h3>อ่า...</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 51
+        },
+        {
+            "pageID": 51,
+            "pageName": "fiftyone",
+            "pageText": "<div class='text-white text-center'><h3>ฉันไม่ค่อยเจอคนตอบแบบนี้เท่าไหร่</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 52
+        },
+        {
+            "pageID": 52,
+            "pageName": "fiftytwo",
+            "pageText": "<div class='text-white text-center'><h3>ทำไมคุณถึงรู้สึกติดค้างกับเรื่องนี้ซะล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 53
+        },
+        {
+            "pageID": 53,
+            "pageName": "fiftythree",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าย้อนเวลากลับไปได้อยากบอกตัวเองว่าอะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 54
+        },
+        {
+            "pageID": 54,
+            "pageName": "fiftyfour",
+            "pageText": "<div class='text-white text-center'><h3>เหนื่อยหรือเปล่า<br>การอยู่ต่อโดยแบกเรื่องข้างหลังไว้ตลอด</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 55
+        },
+        {
+            "pageID": 55,
+            "pageName": "fiftyfive",
+            "pageText": "<div class='text-white text-center'><h3>อ่า...</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 56
+        },
+        {
+            "pageID": 56,
+            "pageName": "fiftysix",
+            "pageText": "<div class='text-white text-center'><h3>ไม่ได้จะบอกให้ลืมนะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 57
+        },
+        {
+            "pageID": 57,
+            "pageName": "fiftyseven",
+            "pageText": "<div class='text-white text-center'><h3>แต่ถ้าเหนื่อยมากก็อย่าลืมพักบ้างแล้วกัน</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 58,
+            "pageName": "fiftyeight",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าวันนี้ต้องตายเสียดายเวลาที่ผ่านมาหรือเปล่า</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "เสียดาย",
+                "PageID" : 59
+            },
+            {
+                "AnswerText" : "ไม่เสียดาย",
+                "PageID" : 59
+            }
+           ],
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 59
+        },
+        {
+            "pageID": 59,
+            "pageName": "fiftynine",
+            "pageText": "<div class='text-white text-center'><h3>ไหนเล่าโมเม้นต์ที่ชอบที่สุดในช่วงชีวิตที่ผ่านมาให้ฟังหน่อยสิ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":"input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 60
+        },
+        {
+            "pageID": 60,
+            "pageName": "sixty",
+            "pageText": "<div class='text-white text-center'><h3>จากชีวิตที่ผ่านมา<br>อยากขอบคุณตัวเองเรื่องอะไรบ้าง</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":"input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 61
+        },
+        {
+            "pageID": 61,
+            "pageName": "sixtyone",
+            "pageText": "<div class='text-white text-center'><h3>คงดีนะ</h3></div>",
+            "pageDuration": 4,
+            "pageAnswer":null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 62
+        },
+        {
+            "pageID": 62,
+            "pageName": "sixtytwo",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าเราได้มีชีวิตอยู่ต่อเพื่อทำตามความฝัน</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 63
+        },
+        {
+            "pageID": 63,
+            "pageName": "sixtythree",
+            "pageText": "<div class='text-white text-center'><h3>เหมือนจะง่ายนะ<br>แต่ก็ยากจังเลย การไล่ตามความฝันตัวเองเนี่ย</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 64
+        },
+        {
+            "pageID": 64,
+            "pageName": "sixtyfour",
+            "pageText": "<div class='text-white text-center'><h3>แต่ถ้าทำได้คงดีมากเลยเนอะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 65,
+            "pageName": "sixtyfive",
+            "pageText": "<div class='text-white text-center'><h3>หืม...</h3></div>",
+            "pageDuration": 4,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 66
+        },
+        {
+            "pageID": 66,
+            "pageName": "sixtysix",
+            "pageText": "<div class='text-white text-center'><h3>แล้วที่ผ่านมาใช้ชีวิตไปกับอะไรอยู่ล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 67
+        },
+        {
+            "pageID": 67,
+            "pageName": "sixtyseven",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าวันนี้ต้องตายเสียดายเวลาที่ผ่านมาหรือป่าว</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":  [{
+                "AnswerText" : "เสียดาย",
+                "PageID" : 68
+            },
+            {
+                "AnswerText" : "ไม่เสียดาย",
+                "PageID" : 68
+            }
+           ],
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 68
+        },
+        {
+            "pageID": 68,
+            "pageName": "sixtyeight",
+            "pageText": "<div class='text-white text-center'><h3>แล้วถ้าเลือกได้อยากมีชีวิตต่อจะทำอะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 69
+        },
+        {
+            "pageID": 69,
+            "pageName": "sixtynine",
+            "pageText": "<div class='text-white text-center'><h3>ดีจังนะ</h3></div>",
+            "pageDuration": 4,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 70
+        },
+        {
+            "pageID": 70,
+            "pageName": "seventy",
+            "pageText": "<div class='text-white text-center'><h3>น่าจะดีถ้าได้มีชีวิตอยู่ต่อ<br><br>เพื่อใช้ชีวิตของตัวเองบ้าง</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 71,
+            "pageName": "seventyone",
+            "pageText": "<div class='text-white text-center'><h3>ถ้าไม่พูดเรื่องเงิน หรือข้อจำกัดในชีวิต<br><br>เธอมีสิ่งที่อยากทำหรือมีชีวิตแบบที่อยากใช้อยู่ไหม</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "มี",
+                "PageID" : 72
+            },
+            {
+                "AnswerText" : "ไม่มี",
+                "PageID" : 72
+            }
+           ],
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 72
+        },
+        {
+            "pageID": 72,
+            "pageName": "seventytwo",
+            "pageText": "<div class='text-white text-center'><h3>เริ่มจากง่ายๆ ความสุขเล็กของเธอคืออะไร</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 73
+        },
+        {
+            "pageID": 73,
+            "pageName": "seventythree",
+            "pageText": "<div class='text-white text-center'><h3>ฟังดูดีนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 74
+        },
+        {
+            "pageID": 74,
+            "pageName": "seventyfour",
+            "pageText": "<div class='text-white text-center'><h3>ถ้ายังมีชีวิตอยู่<br><br> ก็ยังมีความเป็นไปได้อีกหลายอย่างรออยู่นะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 75
+        },
+        {
+            "pageID": 75,
+            "pageName": "seventyfive",
+            "pageText": "<div class='text-white text-center'><h3>คงจะดีถ้าได้รู้ว่าตัวเองเป็นใคร <br><br>และอยากทำอะไรบนโลกนี้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 35
+        },
+        {
+            "pageID": 76,
+            "pageName": "seventysix",
+            "pageText": "<div class='text-white text-center'><h3>โอ้ <br>คำถามนี้ไม่ต้องตอบฉันหรอก</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://fsa.zobj.net/crop.php?r=ItwbnWmZa_ttFnTP5WjbBTPQGC6wzokqoJwzSbea8LVd1VwbHvtnAJfD7RqK3Q0uPhVTSQK3ZGylBC_rd5U4eCsH_SQ82WzGadeaPTijO-0olt-HXMfn-1bEH04WH3zzaitCQU6zD5stbjq73kzDdYO6nKL32HF1JCqNnhjH-IYt4hLK16CC018i0UU')",
+            "pageMusic":  {
+                "musicName":"#audio6",
+                "musicVol":1,
+                "musicSeekTime":2,
+                "musicStop":0
+            },
+            "pageNext" : 77
+        },
+        {
+            "pageID": 77,
+            "pageName": "seventyseven",
+            "pageText": "<div class='text-white text-center'><h3>คำตอบนี้ไม่ใช่คำตอบที่ฉันต้องรู้</h3></div>",
+            "pageDuration":5 ,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 78
+        },
+        {
+            "pageID": 78,
+            "pageName": "seventyeight",
+            "pageText": "<div class='text-white text-center'><h3>แต่เป็นคำตอบที่เธอควรรู้</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 79
+        },
+        {
+            "pageID": 79,
+            "pageName": "seventynine",
+            "pageText": "<div class='text-dark text-center'><h3>มีหน้าต่างอยู่บานหนึ่ง...</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/b5/cf/2c/b5cf2c839c6577986c2919a3397e76c0.jpg')",
+            "pageMusic":null,
+            "pageNext" : 80
+        },
+        {
+            "pageID": 80,
+            "pageName": "eighty",
+            "pageText": "<div class='text-dark text-center'><h3>คุณเห็นดอกอะไรที่ข้างนอกหน้าต่างบานนั้น..</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "คาร์เนชั่น",
+                "PageID" : 81
+            },
+            {
+                "AnswerText" : "ลิลลี่",
+                "PageID" : 93
+            },
+            {
+                "AnswerText" : "กุหลาบ",
+                "PageID" : 105
+            },
+            {
+                "AnswerText" : "ไฮเดรนเยีย",
+                "PageID" : 117
+            },
+            {
+                "AnswerText" : "กล้วยไม้",
+                "PageID" : 129
+            }
+           ],
+            "pageBackground": null,
+            "pageMusic": null
+            
+        },
+        {
+            "pageID": 81,
+            "pageName": "eightyone",
+            "pageText": "<div class='text-dark text-center'><h3>ไม่จำเป็นต้องชอบ<br><br> แต่ต้องขอบคุณทุกๆวันที่ผ่านมา<br><br> ทั้งวันที่สุขและวันที่เศร้าเพราะมันทำให้เธอเติบโตเป็นคนที่ดี<br><br>และน่ารักกับคนอื่นทำให้เธอเป็นคนเวอร์ชั่นนี้<br><br>ในปัจุบันเรียนรู้จากมันและเติบโตจากมัน</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/cn.jpg')",
+            "pageMusic": null,
+            "pageNext" : 82
+        },
+        {
+            "pageID": 82,
+            "pageName": "eightytwo",
+            "pageText": "<div class='text-dark text-center'><h3>เหมือนดอกไม้ดอกนี้จะยังไม่บานนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 83
+        },
+        {
+            "pageID": 83,
+            "pageName": "eightythree",
+            "pageText": "<div class='text-dark text-center'><h3>ถ้ายังมีโอกาสละก็</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 84
+        },
+        {
+            "pageID": 84,
+            "pageName": "eightyfour",
+            "pageText": "<div class='text-dark text-center'><h3>ยังอยากเห็นดอกไม้นี้ผลิบานอยู่นะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 85
+        },
+        {
+            "pageID": 85,
+            "pageName": "eightyfive",
+            "pageText": "<div class='text-dark text-center'><h3>ถามครั้งสุดท้าย คุณจะมีชีวิตอยู่ต่อเพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/4e/07/e8/4e07e86220deeb611e6a1df5ab566cfb.jpg')",
+            "pageMusic": null,
+            "pageNext" : 86
+        },
+        {
+            "pageID": 86,
+            "pageName": "eightysix",
+            "pageText": "<div class='text-dark text-center'><h3>ตอนนี้ชีวิตกำลังรอให้คุณกลับไปใช้อยู่นะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 87
+        },
+        {
+            "pageID": 87,
+            "pageName": "eightyseven",
+            "pageText": "<div class='text-dark text-center'><h3>ไว้ถึงเวลาค่อยมาคุยกันใหม่นะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 88
+        },
+        {
+            "pageID": 88,
+            "pageName": "eightyeight",
+            "pageText": "<div class='text-dark text-center'><h3>คุณตื่นมาในห้องนอนของตัวเอง</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 89
+        },
+        {
+            "pageID": 89,
+            "pageName": "eightynine",
+            "pageText": "<div class='text-dark text-center'><h3>ดูเหมือนเรื่องทั้งหมดจะเป็นแค่ฝันไป</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image: url('https://pbs.twimg.com/profile_images/788355813051994112/jF7hRuST.jpg')",
+            "pageMusic": null,
+            "pageNext" : 90
+        },
+        {
+            "pageID": 90,
+            "pageName": "ninety",
+            "pageText": "<div class='text-dark text-center'><h3>คุณนั่งพักสักครู่...<br><br> ก่อนลุกขึ้นขยับตัวใช้ชีวิตวันนี้ต่อไป</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 91
+        },
+        {
+            "pageID": 91,
+            "pageName": "ninetyone",
+            "pageText": "<div class='text-dark text-center'><h3>ทันทีที่คุณลุกขึ้น<br><br>คุณก็หันไปเห็นของที่ระลึกจากความตาย<br><br> ที่ยมฑูตทิ้งไว้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 92
+        },
+        {
+            "pageID": 92,
+            "pageName": "ninetyone",
+            "pageText": "<div class='text-dark text-center'><h3>${user.name}</h3><br><h3>คำยินดีของคาร์เนชั่น</h3><br><h3>ของที่ระลึกจากความตาย</h3><br><h4>เพื่อให้คุณได้ระลึกถึงความสำคัญของความสัมพันธ์ระหว่างเรามีชีวิตอยู่เสมอ<br>คุณอยากมีชีวิตแบบที่หัวใจคุณต้องการ มีความฝันที่อาจจะใหญ่กว่าความจริงที่เป็นอยู่ มีทางเลือกที่คุณอยากเลือกหากชีวิตเปิดโอกาสและคงมีอุปสรรค ความจริง หรือไม่ก็ตัวคุณที่ขีเกั้นความฝันนั้นไว้ ดอกคาร์เนชั่นเป็นดอกไม้ที่ใช้แสดงความยินดี ดอกไม้นี้เติบโตได้แม้สภาพแวดล้อมไม่เป็นใจ แต่ถึงอย่างนั้น การจะปลูกคาร์เนชั่นไม่ใช่เรื่องง่าย มันต้องใช้การดูแล ลงมือและเอาใจใส่อย่างสม่ำเสมอ คุณอาจปลูกคาร์เนชั่นไม่ขึ้นเลยในครั้งแรกที่หว่านเมล็ด คุณอาจจะเผลอปล่อยมันเฉาตายลงโดยไม่ตั้งใจ แต่เมื่อใดที่คุณสามารถปลูกคาร์เนชั่นนี้ได้สำเร็จ ดอกของมันจะผลิบานแทนคำยินดีที่มีต่อคุณ</h4></h1></div>",
+            "pageDuration": 0,
+            "pageAnswer":  [{
+                "AnswerText" : "ถัดไป",
+                "PageID" : 145
+            }
+           ],
+            "pageBackground": "background-image:url('img/cc.jpg')",
+            "pageMusic": null
+          
+        },
+        {
+            "pageID": 93,
+            "pageName": "ninetythree",
+            "pageText": "<div class='text-dark text-center'><h3>โอ้ <br><p>ที่ผ่านมาผมชอบตัดสินใจเลือกทางเดิน<br>ที่จะทำให้ผมเสียใจภายหลังเสมอ<br>ถ้าเลือกได้ก็อยากรักตัวเองบ้าง<br>แคร์คนอื่นได้แต่คิดถึงความรู้สึกตัวเองบ้าง</h1></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/lily.jpg')",
+            "pageMusic": null,
+            "pageNext" : 94
+        },
+        {
+            "pageID": 94,
+            "pageName": "ninetyfour",
+            "pageText": "<div class='text-dark text-center'><h3>เหมือนดอกไม้ดอกนี้จะยังไม่บานนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 95
+        },
+        {
+            "pageID": 95,
+            "pageName": "ninetyfive",
+            "pageText": "<div class='text-dark text-center'><h3>ถ้ายังมีโอกาสละก็</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 96
+        },
+        {
+            "pageID": 96,
+            "pageName": "ninetysix",
+            "pageText": "<div class='text-dark text-center'><h3>ยังอยากเห็นดอกไม้นี้ผลิบานอยู่นะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 97
+        },
+        {
+            "pageID": 97,
+            "pageName": "ninetyseven",
+            "pageText": "<div class='text-dark text-center'><h3>ถามครั้งสุดท้าย คุณจะมีชีวิตอยู่ต่อเพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/4e/07/e8/4e07e86220deeb611e6a1df5ab566cfb.jpg')",
+            "pageMusic": null,
+            "pageNext" : 98
+        },
+        {
+            "pageID": 98,
+            "pageName": "ninetyeigth",
+            "pageText": "<div class='text-dark text-center'><h3>ตอนนี้ชีวิตกำลังรอให้คุณกลับไปใช้อยู่นะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 99
+        },
+        {
+            "pageID": 99,
+            "pageName": "ninetynine",
+            "pageText": "<div class='text-dark text-center'><h3>ไว้ถึงเวลาค่อยมาคุยกันใหม่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 100
+        },
+        {
+            "pageID": 100,
+            "pageName": "onehundred",
+            "pageText": "<div class='text-dark text-center'><h3>คุณตื่นมาในห้องนอนของตัวเอง</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 101
+        },
+        {
+            "pageID":101,
+            "pageName": "onehundredone",
+            "pageText": "<div class='text-dark text-center'><h3>ดูเหมือนเรื่องทั้งหมดจะเป็นแค่ฝันไป</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image: url('https://pbs.twimg.com/profile_images/788355813051994112/jF7hRuST.jpg')",
+            "pageMusic": null,
+            "pageNext" : 102
+        },
+        {
+            "pageID": 102,
+            "pageName": "onehundredtwo",
+            "pageText": "<div class='text-dark text-center'><h3>คุณนั่งพักสักครู่...<br><br> ก่อนลุกขึ้นขยับตัวใช้ชีวิตวันนี้ต่อไป</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 103
+        },
+        {
+            "pageID": 103,
+            "pageName": "onehundredthree",
+            "pageText": "<div class='text-dark text-center'><h3>ทันทีที่คุณลุกขึ้น<br><br>คุณก็หันไปเห็นของที่ระลึกจากความตาย <br><br>ที่ยมฑูตทิ้งไว้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 104
+        },
+        {
+            "pageID": 104,
+            "pageName": "onehundredfour",
+            "pageText": "<div class='text-dark text-center'><h3>${user.name}</h3><br><h3>การเริ่มใหม่ของดอกลิลลี่</h3><br><h3>ของที่ระลึกจากความตาย</h3><br><h4>เพื่อให้คุณได้ระลึกถึงความสำคัญของความสัมพันธ์ระหว่างมรามีชีวิตอยู่เสมอ<br>คุณมีใครบางคนซ่อนไว้ในใจ มีเพลงบางเพลงที่ซ่อนเขาไว้ข้างในเสมออาจเป็นคนที่คุณคอยคิดถึงตอนเที่ยงคืน อาจเป็นคนที่คุณคอยฝันหามาตลอด หรือบางทีก็อาจเป็นแค่คนที่คอยทำให้ใจของคุณเจ็บกุหลาบเป็นต้นไม้ที่ขึ้นง่ายแต่ยากจะดูแลให้ดอกที่ออกนั้นแข็งแรง ความรักของคุณอาจจะออกใบแค่จากการสบตา บทสนทนา หรือรอยยิ้ม แต่จะผลิดอกงามมั้ย คงต้องใช้การดูแลด้วย ความรู้สึก เวลา และอย่าลืมว่าต้องใช้การลงลืมในการปลูกมัน</h4></h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ถัดไป",
+                "PageID" : 145
+            }
+           ],
+            "pageBackground": "background-image:url('img/ll.jpg')",
+            "pageMusic": null,
+            "pageNext" : 145
+        },
+        {
+            "pageID": 105,
+            "pageName": "onehundredfive",
+            "pageText": "<div class='text-dark text-center'><h3>สิ่งที่น่าเสียดายที่สุด<br><br>คือการใช้ชีวิตแบบไม่อนุญาตให้ตัวเองมีความสุข</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/rss.jpg')",
+            "pageMusic": null,
+            "pageNext" : 106
+        },
+        {
+            "pageID": 106,
+            "pageName": "onehundredsix",
+            "pageText": "<div class='text-dark text-center'><h3>เหมือนดอกไม้ดอกนี้จะยังไม่บานนะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 107
+        },
+        {
+            "pageID": 107,
+            "pageName": "onehundredseven",
+            "pageText": "<div class='text-dark text-center'><h3>ถ้ายังมีโอกาสละก็</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 108
+        },
+        {
+            "pageID": 108,
+            "pageName": "onehundredeight",
+            "pageText": "<div class='text-dark text-center'><h3>ยังอยากเห็นดอกไม้นี้ผลิบานอยู่นะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 109
+        },
+        {
+            "pageID": 109,
+            "pageName": "onehundrednine",
+            "pageText": "<div class='text-dark text-center'><h3>ถามครั้งสุดท้าย คุณจะมีชีวิตอยู่ต่อเพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/4e/07/e8/4e07e86220deeb611e6a1df5ab566cfb.jpg')",
+            "pageMusic": null,
+            "pageNext" : 110
+        },
+        {
+            "pageID": 110,
+            "pageName": "onehundredten",
+            "pageText": "<div class='text-dark text-center'><h3>ตอนนี้ชีวิตกำลังรอให้คุณกลับไปใช้อยู่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 111
+        },
+        {
+            "pageID": 111,
+            "pageName": "onehundredeleven",
+            "pageText": "<div class='text-dark text-center'><h3>ไว้ถึงเวลาค่อยมาคุยกันใหม่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 112
+        },
+        {
+            "pageID": 112,
+            "pageName": "onehundredtwelve",
+            "pageText": "<div class='text-dark text-center'><h3>คุณตื่นมาในห้องนอนของตัวเอง</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 113
+        },
+        {
+            "pageID":113,
+            "pageName": "onehundredthirteen",
+            "pageText": "<div class='text-dark text-center'><h3>ดูเหมือนเรื่องทั้งหมดจะเป็นแค่ฝันไป</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image: url('https://pbs.twimg.com/profile_images/788355813051994112/jF7hRuST.jpg')",
+            "pageMusic": null,
+            "pageNext" : 114
+        },
+        {
+            "pageID": 114,
+            "pageName": "onehundredfourteen",
+            "pageText": "<div class='text-dark text-center'><h3>คุณนั่งพักสักครู่...<br><br> ก่อนลุกขึ้นขยับตัวใช้ชีวิตวันนี้ต่อไป</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 115
+        },
+        {
+            "pageID": 115,
+            "pageName": "onehundredfifteen",
+            "pageText": "<div class='text-dark text-center'><h3>ทันทีที่คุณลุกขึ้น<br><br>คุณก็หันไปเห็นของที่ระลึกจากความตาย<br><br> ที่ยมฑูตทิ้งไว้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 116
+        },
+        {
+            "pageID": 116,
+            "pageName": "onehundredsixteen",
+            "pageText": "<div class='text-dark text-center'><h3>${user.name}</h3><br><h3>ขอบมอบดอกกุหลาบแทนความรัก</h3><br><h3>ของที่ระลึกจากความตาย</h3><br><h4>เพื่อให้คุณได้ระลึกถึงความสำคัญของความสัมพันธ์ระหว่างเรามีชีวิตอยู่เสมอ<br>ลิลลี่ผลิบานเพื่อแทนความหมายของการเริ่มใหม่ แต่เหมือนการเริ่มใหม่ของคุณจะยังไม่ผลิบาน คุณคงถือคำพูด เหตุการณ์ ความรู้สึกหรือบุลคลจากอดีตถือไว้เสมอ แล้วแบกมันไปทุกที่ที่คุณเรียกว่าปัจจุบัน อดีตอาจจะเป็นสิ่งที่ทำให้คุณยากที่จะหลับในตอนกลางคืน เป็นแผลเป็นที่สดเสมอในความทรงจำ เป็นแส้ที่คุณใช้เฆี่ยนตีตัวเองอยู่เสมอ แต่อดีตก็เป็นส่วนประกอบหนึ่งของการสร้างอนาคต ถ้าแบกอดีตไว้แล้วเหนื่อยมากก็อย่าลืมพักบ้าง อนุญาตให้ตัวเองรู้สึกผ่อนคลายสักนิด ไว้คุณพร้อมเราค่อยมาเริ่มใหม่กัน ยังอยากเห็นอยู่นะ ดอกลิลลี่ที่ผลิบานให้กับการก้าวข้ามของคุณ</h4></h3></div>",
+            "pageDuration": 0,
+            "pageAnswer":  [{
+                "AnswerText" : "ถัดไป",
+                "PageID" : 145
+            }
+           ],
+            "pageBackground": "background-image:url('img/rs.jpg')",
+            "pageMusic": null
+            
+        },{
+            "pageID": 117,
+            "pageName": "onehundredseventeen",
+            "pageText": "<div class='text-dark text-center'><h3>วันที่เราจากไป<br><br>มันคงจะเกิดการเปลี่ยนแปลงมากมาย<br><br>อาจเล็กน้อยในโลกที่แสนกว้างใหญ่<br><br>แต่สำหรับใครที่เก็บเรา<br><br>ไว้ในดลกของเขามันต้องใช้เวลาในการปรับตัว</h3></div>",
+            "pageDuration": 10,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/hyy.png')",
+            "pageMusic": null,
+            "pageNext" : 118
+        },
+        {
+            "pageID": 118,
+            "pageName": "onehundredeight",
+            "pageText": "<div class='text-dark text-center'><h3>เหมือนดอกไม้ดอกนี้จะยังไม่บานนะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 119
+        },
+        {
+            "pageID": 119,
+            "pageName": "onehundrednine",
+            "pageText": "<div class='text-dark text-center'><h3>ถ้ายังมีโอกาสละก็</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 120
+        },
+        {
+            "pageID": 120,
+            "pageName": "onehundredtwenty",
+            "pageText": "<div class='text-dark text-center'><h3>ยังอยากเห็นดอกไม้นี้ผลิบานอยู่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 121
+        },
+        {
+            "pageID": 121,
+            "pageName": "onehundredtwentyone",
+            "pageText": "<div class='text-dark text-center'><h3>ถามครั้งสุดท้าย คุณจะมีชีวิตอยู่ต่อเพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('img/hy.jpg')",
+            "pageMusic": null,
+            "pageNext" : 122
+        },
+        {
+            "pageID": 122,
+            "pageName": "onehundredtwentytwo",
+            "pageText": "<div class='text-dark text-center'><h3>ตอนนี้ชีวิตกำลังรอให้คุณกลับไปใช้อยู่นะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 123
+        },
+        {
+            "pageID": 123,
+            "pageName": "onehundredtwentythree",
+            "pageText": "<div class='text-dark text-center'><h3>ไว้ถึงเวลาค่อยมาคุยกันใหม่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 124
+        },
+        {
+            "pageID": 124,
+            "pageName": "onehundredtwentyfour",
+            "pageText": "<div class='text-dark text-center'><h3>คุณตื่นมาในห้องนอนของตัวเอง</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 125
+        },
+        {
+            "pageID":125,
+            "pageName": "onehundredtwentyfive",
+            "pageText": "<div class='text-dark text-center'><h3>ดูเหมือนเรื่องทั้งหมดจะเป็นแค่ฝันไป</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image: url('https://pbs.twimg.com/profile_images/788355813051994112/jF7hRuST.jpg')",
+            "pageMusic": null,
+            "pageNext" : 126
+        },
+        {
+            "pageID": 126,
+            "pageName": "onehundredtwentysix",
+            "pageText": "<div class='text-dark text-center'><h3>คุณนั่งพักสักครู่...<br><br> ก่อนลุกขึ้นขยับตัวใช้ชีวิตวันนี้ต่อไป</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 127
+        },
+        {
+            "pageID": 127,
+            "pageName": "onehundredtwentyseven",
+            "pageText": "<div class='text-dark text-center'><h3>ทันทีที่คุณลุกขึ้น<br><br>คุณก็หันไปเห็นของที่ระลึกจากความตาย<br><br> ที่ยมฑูตทิ้งไว้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 128
+        },
+        {
+            "pageID": 128,
+            "pageName": "onehundredtwentyeight",
+            "pageText": "<div class='text-dark text-center'><h3>${user.name}</h3><br><h3>คำขอบคุณของไฮเดรนเยีย</h3><br><h3>ของที่ระลึกจากความตาย</h3><br><h4>เพื่อให้คุณได้ระลึกถึงความสำคัญของความสัมพันธ์ระหว่างเรามีชีวิตอยู่เสมอ<br>ชีวิตให้โอกาสคุณมาพบกันเป็นช่วงสั้นๆก่อนจากลา ใครสักคนที่คุณให้ความสำคัญ ให้สักคนที่คุณพร้อมให้เวลา ใครสักคนที่เมื่อคิดถึงเขาแล้วจะมีความรู้สึกผูกติดมากับความคิดนั้นเสมอ หรือบางทีก็แค่ใครสักคนที่ตอนนี้คุณคงต้องใช้คำว่า 'เคย' ในการบรรยายสิ่งที่มีร่วมกับเขาก่อนที่วงโคจรชีวิตจะเหวี่ยงเราออกจากกัน ก่อนที่กลีบของดอกไฮเดรนเยียจะเหี่ยวเฉา อยากให้ช่วงเวลาที่ยังมีโอกาสมีร่วมกันนี้ผลิบานและหอมเสมอในความทรงจำ</h4></h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ถัดไป",
+                "PageID" : 145
+            }
+           ], 
+            "pageBackground": "background-image:url('img/hy.jpg') ",
+            "pageMusic":null
+            
+        },
+        {
+            "pageID": 129,
+            "pageName": "onehundredtwentynine",
+            "pageText": "<div class='text-dark text-center'><h3>โอ้ <br><br><p>สิ่งที่น่าเสียดายที่สุดคือการใช้ชีวิต<br><br>แบบไม่อนุญาตให้ตัวเองมีความสุข</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/kyy.jpg')",
+            "pageMusic": null,
+            "pageNext" : 130
+        },
+        {
+            "pageID": 130,
+            "pageName": "onehundredthirty",
+            "pageText": "<div class='text-dark text-center'><h3>เหมือนดอกไม้ดอกนี้จะยังไม่บานนะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 131
+        },
+        {
+            "pageID": 131,
+            "pageName": "onehundredthirtyone",
+            "pageText": "<div class='text-dark text-center'><h3>ถ้ายังมีโอกาสละก็</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 132
+        },
+        {
+            "pageID": 132,
+            "pageName": "onehundredthirtytwo",
+            "pageText": "<div class='text-dark text-center'><h3>ยังอยากเห็นดอกไม้นี้ผลิบานอยู่นะ</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 133
+        },
+        {
+            "pageID": 133,
+            "pageName": "onehundredthirtythree",
+            "pageText": "<div class='text-dark text-center'><h3>ถามครั้งสุดท้าย คุณจะมีชีวิตอยู่ต่อเพื่ออะไรล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": "input",
+            "pageBackground": "background-image:url('https://i.pinimg.com/564x/4e/07/e8/4e07e86220deeb611e6a1df5ab566cfb.jpg')",
+            "pageMusic": null,
+            "pageNext" : 134
+        },
+        {
+            "pageID": 134,
+            "pageName": "onehundredthirtyfour",
+            "pageText": "<div class='text-dark text-center'><h3>ตอนนี้ชีวิตกำลังรอให้คุณกลับไปใช้อยู่นะ</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 135
+        },
+        {
+            "pageID": 135,
+            "pageName": "onehundredthirtyfive",
+            "pageText": "<div class='text-dark text-center'><h3>ไว้ถึงเวลาค่อยมาคุยกันใหม่นะ</h3></div>",
+            "pageDuration": 5 ,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 136
+        },
+        {
+            "pageID": 136,
+            "pageName": "onehundredthirtysix",
+            "pageText": "<div class='text-dark text-center'><h3>คุณตื่นมาในห้องนอนของตัวเอง</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 137
+        },
+        {
+            "pageID":137,
+            "pageName": "onehundredthirtyseven",
+            "pageText": "<div class='text-dark text-center'><h3>ดูเหมือนเรื่องทั้งหมดจะเป็นแค่ฝันไป</h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image: url('https://pbs.twimg.com/profile_images/788355813051994112/jF7hRuST.jpg')",
+            "pageMusic": null,
+            "pageNext" : 138
+        },
+        {
+            "pageID": 138,
+            "pageName": "onehundredthirtyeight",
+            "pageText": "<div class='text-dark text-center'><h3>คุณนั่งพักสักครู่ ก่อนลุกขึ้นขยับตัวใช้ชีวิตวันนี้ต่อไป</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 139
+        },
+        {
+            "pageID": 139,
+            "pageName": "onehundredthirtynine",
+            "pageText": "<div class='text-dark text-center'><h3>ทันทีที่คุณลุกขึ้น<br><br>คุณก็หันไปเห็นของที่ระลึกจากความตาย<br><br> ที่ยมฑูตทิ้งไว้</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 140
+        },
+        {
+            "pageID": 140,
+            "pageName": "onehundredforty",
+            "pageText": "<div class='text-dark text-center'><h3>${user.name}</h3><br><h3>รอคอยวันที่กล้วยไม้บาน</h3><br><h3>ของที่ระลึกจากความตาย</h3><br><h4>เพื่อให้คุณได้ระลึกถึงความสำคัญของความสัมพันธ์ระหว่างเรามีชีวิตอยู่เสมอ<br>คุณมีชีวิตที่ยังไม่ได้ใช้ มีความต้องการที่ถูกหยุดด้วยหน้าที่ เงินทองหรือบางทีก้ด้วยตัวของคุณเองที่หยุดที่ตัวเองไว้ คุณเป็นดอกไม้ที่บานช้าเช่นเดียวกับดอกกล้วยไม้ ชั่วชีวิตหนึ่งของดอกไม้ดอกนี้อาจจะไม่บานเลยหรือร่วงโรยก่อนผลิบาน แต่หากดอกไม้กล้วยไม้นี้บานได้ครั้งเดียว มันจะกลายเป็นความสวยงามที่คงทน ยากจะร่วงโรย คุณอาจจะพูดคำว่าไว้ก่อนซ้ำๆ เสมอกับสิ่งที่ต้องการ อาจมีข้ออ้างที่ฟังขึ้นเสมอในความรู้สึก มีพรุ่งนี้ไว้ค่อยทำมาตลอด แต่โปรดอย่าลืมว่าชีวิตมีเวลาเหลือไม่มาก เหลือให้คุณบานไม่นานอย่างที่คุณคิด</h4></h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ถัดไป",
+                "PageID" : 145
+            }
+           ], 
+            "pageBackground": "background-image:url('img/kk.jpg')",
+            "pageMusic": null
+          
+        },
+        {
+            "pageID": 141,
+            "pageName": "onehundredfourtyone",
+            "pageText": "<div class='text-white text-center'><h3>น่าสนใจ แสดงว่าได้ทำในสิ่งที่อยากทำหมดแล้วสินะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ใช่",
+                "PageID" : 142
+            },
+            {
+                "AnswerText" : "ไม่ใช่",
+                "PageID" : 144
+            }
+           ],
+            "pageBackground": null,
+            "pageMusic": null
+           
+        },
+        {
+            "pageID": 142,
+            "pageName": "onehundredfourtytwo",
+            "pageText": "<div class='text-white text-center'><h3>ดูเหมือนดอกไม้ดอกนี้จะบานแล้วนะ<br><br>แต่เชื่อไหมมันยังบานได้มากกว่านี้อีก</h3></div>",
+            "pageDuration": 7,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 143
+        },
+        {
+            "pageID": 143,
+            "pageName": "onehundredfourtythree",
+            "pageText": "<div class='text-white text-center'><h3>ยังอยากให้เธอหมั่นรดน้ำพรวนดินมันต่อไปนะ</h3></div>",
+            "pageDuration": 6,
+            "pageAnswer": null,
+            "pageBackground": null,
+            "pageMusic": null,
+            "pageNext" : 79
+        },
+        {
+            "pageID": 144,
+            "pageName": "onehundredfourtyfour",
+            "pageText": "<div class='text-white text-center'><h3>แล้วยังเหลืออะไรที่ยังไม่ได้ทำอีกล่ะ</h3></div>",
+            "pageDuration": 0,
+            "pageAnswer": [{
+                "AnswerText" : "ควาามสัมพันธ์กับเพื่อน/ครอบครัว",
+                "PageID" : 32
+            },
+            {
+                "AnswerText" : "ความรัก",
+                "PageID" : 36
+            },
+            {
+                "AnswerText" : "ความฝัน",
+                "PageID" : 58
+            },
+            {
+                "AnswerText" : "อุดมการณ์",
+                "PageID" : 45
+            },
+            {
+                "AnswerText" : "เหตุการณ์ในอดีต",
+                "PageID" : 50
+            },
+            {
+                "AnswerText" : "ยังไม่รู้จักตัวเลย ไม่มีความฝันเลย",
+                "PageID" : 71
+            },
+            {
+                "AnswerText" : "ยังไม่ได้ใช้ชีวิต",
+                "PageID" : 65
+            },
+            {
+                "AnswerText" : "ไม่มีความฝันเลย",
+                "PageID" : 40
+            }
+           
+           ],
+            "pageBackground": "background-image:url('img/hand.png')",
+            "pageMusic": null
+        },
+        {
+            "pageID": 145,
+            "pageName": "onehundredfourtyfive",
+            "pageText": "<div class='text-dark text-center'><h3>ยังตายไม่ได้หรอก ชีวิตพึ่งเริ่มต้นเท่านั้น </h3></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('https://i.pinimg.com/originals/42/3a/85/423a85a1c1d29da30b0e056e7316a0f4.gif')",
+            "pageMusic": 153
+            
+        },
+        {
+            "pageID": 146,
+            "pageName": "onehundredfourtysix",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/sleep.gif')",
+            "pageMusic": null,
+            "pageNext" : 5
+        },
+        {
+            "pageID": 147,
+            "pageName": "onehundredfourtyseven",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/getup.gif')",
+            "pageMusic": null,
+            "pageNext" : 8
+        },
+        {
+            "pageID": 148,
+            "pageName": "onehundredfourtyeight",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/work.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 149,
+            "pageName": "onehundredfourtynight",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/mobile.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 150,
+            "pageName": "onehundredfifty",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/relax.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 151,
+            "pageName": "onehundredfiftyone",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/miss.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 152,
+            "pageName": "onehundredfiftytwo",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/think.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 148,
+            "pageName": "onehundredfourtyeight",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/work.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 149,
+            "pageName": "onehundredfourtynight",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/mobile.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 150,
+            "pageName": "onehundredfifty",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/relax.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 151,
+            "pageName": "onehundredfiftyone",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/miss.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 152,
+            "pageName": "onehundredfiftytwo",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 3,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/think.gif')",
+            "pageMusic": null,
+            "pageNext" : 3
+        },
+        {
+            "pageID": 153,
+            "pageName": "onehundredfiftythree",
+            "pageText": "<div class='text-white text-center'></div>",
+            "pageDuration": 5,
+            "pageAnswer": null,
+            "pageBackground": "background-image:url('img/think.gif')",
+            "pageMusic": null,
+            "pageNext" : null
+        }
+    ]
+        
+}
